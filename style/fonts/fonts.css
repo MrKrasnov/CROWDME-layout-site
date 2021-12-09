@@ -18,3 +18,7 @@
     font-family: "OpenSans_SemiBold";
     src: url("./OpenSans-SemiBold.ttf") format("truetype");
 } 
+@font-face {
+    font-family: "Nunito_Regular";
+    src: url("./Nunito-Regular.ttf") format("truetype");
+} 
