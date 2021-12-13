@@ -6,8 +6,17 @@ p,h1,h2,h3,h4,h5,h6{
     margin: 0;
     padding: 0;
 }
+button{
+    background: none;
+    text-decoration: none;
+    border: none;
+}
 .container{
     width: 1020px;
+    margin: 0 auto;
+}
+.container__small{
+    width: 880px;
     margin: 0 auto;
 }
 .flex{
@@ -18,6 +27,12 @@ p,h1,h2,h3,h4,h5,h6{
 }
 .align-items-center{
     align-items: center;
+}
+.space_between{
+    justify-content: space-between;
+}
+.space_around{
+    justify-content: space-around;
 }
 ul{
     list-style: none;
