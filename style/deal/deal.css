@@ -1,0 +1,53 @@
+.deal{
+    position: relative;
+    display: block;
+    background-color: #f5f9eb;
+}
+.deal::before{
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: #e2f8ff;
+    width: 50%;
+    height: 100%;
+}
+.deal__main{
+    margin-top: 45px;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 20;
+    padding-right: 60px;
+}
+.deal__main__second{
+    padding-left: 100px;
+}
+.deal__img{
+    margin-right: 45px;
+}
+.deal__content h4{
+    font-family: 'Montserrat_Regular', sans-serif;
+    font-size: 20px;
+    color: #515151;
+    padding-bottom: 30px;
+}
+.deal__content p{
+    font-family: 'Montserrat_Regular', sans-serif;
+    color: #515151;
+    font-size: 15px;
+    padding-bottom: 40px;
+}
+.deal__content a{
+    text-align: center;
+    background-color: #99c50a;
+    padding: 17px 20px;
+    border-radius: 10px;
+    font-family: 'OpenSans_SemiBold', sans-serif;
+    color: #fff;
+    font-size: 15px;
+}
+.deal__main__second p{
+    padding-bottom: 59px;
+}
+.deal__main__first a{
+    background-color: #26a6d1;
+}
