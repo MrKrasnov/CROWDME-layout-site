@@ -1,0 +1,63 @@
+.feedback{
+    background-image: url(../../img/feedback/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.feedback__title{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.feedback__title h1{
+    font-size: 35px;
+    color: #9ec02d;
+    font-family: 'OpenSans_SemiBold', sans-serif;
+    margin-bottom: 50px;
+}
+.feedback__title p{
+    color: #949494;
+    font-family: 'OpenSans_Regular', sans-serif;
+    font-size: 18px;
+}
+.cloud{
+    text-align: center;
+}
+.cloud h4{
+    color: #9ec02d;
+    font-size: 20px;
+    font-family: 'OpenSans_SemiBold', sans-serif;
+    margin-top: 22px;
+    margin-bottom: 20px;
+}
+.cloud p{
+    color: #848484;
+    margin-bottom: 13px;
+    font-family: 'OpenSans_Regular', sans-serif;
+}
+.cloud{
+    border-radius: 10px;
+    background-color: #fff;
+}
+.clouds{
+    margin-bottom: 30px;
+}
+.cloud:first-child{
+    margin-right: 77px;
+}
+.cloud:last-child{
+    margin-left: 77px;
+}
+.feedback__author{
+    color: #494949;
+    font-family: 'Montserrat_Regular', sans-serif;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+.feedback__author h4{
+    margin-left: 17px;
+}
+.feedback__author:first-child{
+    margin-left: 50px;
+}
+.feedback__author:last-child{
+    margin-right: 150px;
+}
