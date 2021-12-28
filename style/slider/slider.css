@@ -3,6 +3,9 @@
     font-family: 'OpenSans_Light' ,sans-serif;
     font-size: 30px;
 }
+.slider__title .button{
+    width: 100%;
+}
 .pos1::before{
     content: '1';
     position: relative;
