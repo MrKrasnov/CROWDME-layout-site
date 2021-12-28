@@ -24,6 +24,9 @@
     }
 }
 @media(max-width: 900px){
+    .logo{
+        margin-top: 0;
+    }
     .container__small{
         width: 95%;
         margin: 0 auto;
