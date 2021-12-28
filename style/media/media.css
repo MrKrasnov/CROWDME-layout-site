@@ -1,0 +1,128 @@
+@media(min-width: 1000px){
+    .header_burger{
+        display: none;
+    }
+}
+@media(max-width: 1000px){
+    .container{
+        width: 95%;
+    }
+    .nav_position{
+        display: none;
+    }
+    .header_position{
+        align-items: center;
+    }
+    .slider_transpod{
+        flex-direction: column;
+    }
+    .portfolio .button a{
+        margin-left: 0;
+    }
+    .deal__content a{
+        padding: 13px 10px;
+    }
+}
+@media(max-width: 900px){
+    .container__small{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .deal__content a{
+        font-size: 10px;
+    }
+}
+@media(max-width: 800px){
+    .deal__main {
+        flex-direction: column;
+    }
+    .deal__content h4{
+        padding-bottom: 0;
+    }
+    .deal__main__second .deal__img{
+        margin-bottom: 20px;
+    }
+    .portfolio__blocks {
+        flex-direction: column;
+        align-items: center
+    }
+    .portfolio__block:nth-child(2){
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .portfolio__block{
+        margin-bottom: 10px;
+    }
+    .feedback__author:last-child{
+        margin-right: 70px;
+    }
+}
+@media(max-width: 700px){
+    .porfolio__title{
+        flex-direction: column;
+        text-align: center;
+    }
+    .porfolio__title .button{
+        margin-top: 10px;
+    }
+}
+@media(max-width: 600px){
+    .link{
+        margin-left: 20px;
+    }
+    .slider__content__image{
+        display: none;
+    }
+    .slider__content__desc{
+        margin-left: 0;
+    }
+    .deal{
+        background: #fff;
+        text-align: center;
+    }
+    .deal::before{
+        background: #fff;
+    }
+    .deal__img{
+        display: none;
+    }
+    .deal__main{
+        flex-direction: row;
+        padding-right: 0;
+    }
+    .deal .flex{
+        flex-direction: column;
+    }
+    .deal__main__second{
+        padding-left: 0px;
+    }
+    .deal__content h4{
+        padding-bottom: 10px;
+    }
+    .feedback__author:last-child{
+        margin-right: 0px;
+    }
+    .container{
+        width: 98%;
+    }
+    .feedback_clouds{
+        display: none;
+    }
+}
+@media(max-width: 400px){
+    .slider__div:first-child{
+        text-align: center;
+    }
+    .slider__div:last-child{
+        text-align: center;
+    }
+    .slider__title .button{
+        width: 100%;
+    }
+    .porfolio__title .button a{
+        padding: 9px;
+    }
+    .logo{
+        margin-top: 0;
+    }
+}
